@@ -1,0 +1,494 @@
+@media (max-width: 1370px){
+                    /* Éléments de base des pages */
+.logo{
+    top: 61px;
+    left: 50px;
+    width: 240px;
+    height: 58px;
+}
+    /* Page d'acceuil aka index.php */
+    .tonneaux{
+        top: 55%;
+        transform: translateY(-50%);
+        height: 500px;
+    }
+    .white-round{      
+        height: 500px;
+        width: 520px;
+        top: 55%;
+        transform: translateY(-50%);
+    }
+    .main-title {
+        top: 24%;
+        font-size: 110px;
+    }
+    .main-title2 {
+        top: 24%;
+        font-size: 80px;
+    }
+    /* Page Login */
+    input{
+        width: 350px;
+    }
+    .login-form {
+        top: 38%;
+        left: 15%;
+    }
+
+    /* Structure slider index2.php */
+    .purple-block{
+        width: 350px;
+        height: 370px;
+    }
+    .white-block{
+        width: 650px;
+        height: 310px;
+    }
+
+    /* Boutons slider */
+    .prev{
+        left: 17%;
+    }
+    .next{
+        right: 17%;
+    }
+
+    /* Contenu du slider */
+    .year-rotate{
+        left: -10%;
+        right: 15%;
+        top: 12%;
+    }
+    .bottle{
+        right: 81%;
+        top: 3%;
+    }
+    h2{
+        margin: 25px 0 0 60px;;
+    }
+    .origin{
+        margin: 0 0 0 60px;
+    }
+    .grapes{
+        margin: 10px 0 0 60px;
+    }
+    .col-desc{
+        margin: 0 0 0 60px;
+    }
+    .col-stock{
+        margin-left: 35px;
+    }
+    .description {
+        font-size: 17px;
+        height: 130px;
+    }
+
+    /* Page ALL */
+    .row-all {
+        margin-top: 220px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .purple-block-vignette{
+        width: 200px;
+        height: 210px;
+        left: 0%;
+    }
+    .year-rotate-vignette{
+        top: 17%;
+    }
+    .white-block-vignette{
+        width: 470px;
+        height: 290px;
+        left: 15%;
+    }
+    .bottle-vignette{
+        top: 8%;
+        right: 78%;
+        height: 230px;
+        width: 190px;
+    }
+    .name-vignette{
+        font-size: 32px;
+        margin: 20px 0 0 45px;
+    }
+    .origin-vignette{
+        margin: 0 0 0 45px;
+    }
+    .grapes-vignette{
+        margin: 10px 0 0 45px;
+    }
+    .description-vignette{
+        height: 30%;
+        margin: 0 0 0 45px;
+    }
+    .row-stock-vignette{
+        margin: 0 0 0 40px;
+    }
+    .stock-vignette{
+        margin-bottom: 0px;
+    }
+    .add-stock-vignette{
+        margin-left: 70px;
+    }
+    h3{
+        font-size: 18px;
+    }
+
+    /* Research */
+    .fa-search {
+        top: 20%;
+        right: 16%;
+    }
+    .research{
+    top: 18%;
+    }
+
+    /* Page ADD */
+    #add_form {
+        top: 14%;
+        left: 18%;
+    }
+    .btn-add{
+        bottom: 5%;
+        left: 48%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .add-input{
+        width: 320px;
+    }
+    #year, #nb {
+        width: 50px;
+    }
+    #nb{
+        margin-right: 15px;
+    }
+    input{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1280px){
+
+
+    /* Structure slider index2.php */
+    .purple-block{
+       left: 17%;
+    }
+    .white-block{
+        left: 31%;
+     }
+
+    /* Boutons slider */
+    .prev{
+        left: 14%;
+    }
+    .next{
+        right: 15%;
+    }
+
+    /* Page ALL */
+    .row-all {
+        margin-left: 4%;
+        margin-right: 3%;
+    }
+    .purple-block-vignette{
+        left: 0%;
+    }
+    .year-rotate-vignette{
+        top: 43%;
+    }
+    .white-block-vignette{
+        left: 15%;
+    }
+    .bottle-vignette {
+        right: 82%;
+        height: 220px;
+        width: 180px;
+        top: 16%;
+    }
+}
+
+@media (max-width: 1194px){
+
+
+    /* Contenu du slider */
+    .year-rotate{
+        left: -12%;
+        top: 41%;
+    }
+
+    /* Boutons slider */
+    .next{
+        right: 12%;
+    }
+
+    /* Page ALL */
+    .row-all {
+        margin-left: 2%;
+    }
+    .year-rotate-vignette{
+        top: 40%;
+        left: -18%;
+    }
+    .purple-block-vignette{
+        left: 1%;
+    }
+    .white-block-vignette{
+        left: 14%;
+        width: 470px;
+    }
+    .name-vignette{
+        margin: 20px 0 0 35px;
+    }
+    .origin-vignette{
+        margin: 0 0 0 35px;
+    }
+    .grapes-vignette{
+        margin: 10px 0 0 35px;
+    }
+    .description-vignette{
+        height: 40%;
+        margin: 0 0 0 35px;
+    }
+    .row-stock-vignette{
+        margin: 0 0 0 35px;
+    }
+    .add-stock-vignette{
+        margin-left: 70px;
+    }
+    .bottle-vignette {
+        right: 82%;
+        height: 200px;
+        width: 160px;
+        top: 20%;
+    }
+}
+
+@media (max-width: 1112px){
+    .tonneaux{
+        width: 480px;
+    }
+
+    /* Structure slider index2.php */
+    .purple-block{
+        left: 13%;
+    }
+    .white-block{
+         left: 28%;
+    }
+ 
+    /* Boutons slider */
+    .prev{
+         left: 10%;
+    }
+    .next{
+         right: 10%;
+    }
+
+    /* Page ALL */
+    .row-all {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1024px){
+    /* Éléments de base des pages */
+    .logo{
+        top: 40px;
+        left: 40px;
+        width: 240px;
+        height: 60px;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+
+    /* Structure slider index2.php */
+    .purple-block {
+        left: 12%;
+    }
+    .white-block {
+        left: 29%;
+        width: 600px;
+    }
+
+    /* Boutons slider */
+    .prev{
+        left: 8%;
+    }
+    .next{
+        right: 8%;
+    }
+
+    /* Contenu du slider */
+    .bottle {
+        right: 79%;
+    }
+    .description{
+        width: 350px;
+    }
+    .add-stock {
+        margin-top: 30px;
+    }
+    .btn-stock{
+        width: 35px;
+        height: 35px;
+        margin-right: 0;
+    }
+    .stock-select{
+        width: 60px;
+    }
+
+    /* Page ALL */
+    .row-all {
+        display: block;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .contenu-vignette{
+        width: auto;
+    }
+    .purple-block-vignette{
+        left: 0%;
+    }
+    .year-rotate-vignette{
+        top: 43%;
+    }
+    .white-block-vignette{
+        left: 15%;
+    }
+    .bottle-vignette{
+        right: 84%;
+    }
+    .description-vignette{
+        width: auto;
+        margin-right: 40px;
+    }
+    .add-stock-vignette{
+        margin-left: 220px;
+    }
+}
+
+@media (max-width: 896px){
+    /* Boutons index2.php */
+    .btn-all{
+        left: 20%;
+    }
+    .btn-magic{
+        right: 20%;
+    }
+
+    /* Structure slider index2.php */
+    .purple-block {
+        left: 10%;
+    }
+    .white-block {
+        width: 530px;
+    }
+
+    /* Boutons slider */
+    .prev{
+        left: 6%;
+    }
+    .next{
+        right: 7%;
+    }
+
+    /* Contenu du slider */
+    h2 {
+        margin: 25px 0 0 50px;
+        font-size: 42px;
+    }
+    .origin, .grapes, .stock, .btn-stock, .stock-select{
+        font-size: 22px;
+    }
+    .bottle {
+        right: 77%;
+    }
+    .origin{
+        margin: 0 0 0 50px;
+    }
+    .grapes{
+        margin: 20px 0 0 50px;
+    }
+    .col-desc{
+        margin: 10px 0 0 50px;
+        display: block;
+    }
+    .description{
+        width: 90%;
+        font-size: 18px;
+        height: 80px;
+    }
+    .col-stock {
+        flex-direction: row;
+        margin-left: 0;
+        position: absolute;
+        bottom: 20px;
+    }
+    .add-stock {
+        margin-top: 0;
+        margin-left: 150px;
+    }
+
+    /* Page ALL */
+    .row-all {
+        display: block;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .contenu-vignette{
+        width: auto;
+    }
+    .purple-block-vignette{
+        left: 0%;
+    }
+    .year-rotate-vignette{
+        top: 43%;
+    }
+    .white-block-vignette{
+        left: 15%;
+    }
+    .bottle-vignette{
+        right: 84%;
+    }
+    .description-vignette{
+        width: auto;
+        margin-right: 40px;
+    }
+    .stock-vignette{
+        width: 150px;
+    }
+    .add-stock-vignette{
+        margin-left: 120px;
+    }
+    .origin-vignette{
+        margin: 0 0 0 35px;
+    }
+    .grapes-vignette{
+        margin: 20px 0 0 35px;
+    }
+}
+
+@media (max-width: 834px){
+    /* Structure slider index2.php */
+    .white-block {
+        width: 500px;
+    }
+
+    /* Contenu du slider */
+    .bottle {
+        right: 75%;
+    }
+
+    /* Page ALL */
+    .bottle-vignette{
+        right: 84%;
+    }
+    .vignette{
+        margin-left: -45px;
+    }
+}
